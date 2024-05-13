@@ -7,7 +7,7 @@ import { theme } from './theme';
 export const config = /*#__PURE__*/configuration({
   theme,                                  // --> add the theme. modify `./theme.ts` for changing the theme.
   dest: {
-    namespace: '/rajnandan'               // --> your github pages namespace. remove if you are using a custom domain.
+    namespace: '/'               // --> your github pages namespace. remove if you are using a custom domain.
   },
   page: {
     title: {
