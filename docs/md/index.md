@@ -27,5 +27,6 @@ Here are few things about me:
 - One of my alias is purplewow. WOW from World of Warcraft. Loved every bit of [DOTA](https://www.dota2.com/home).
 - I like souls-like games.
 - Personal Projects that I am working on can be found  [here](/projects)
+- Knack for good UX and UI. It is perfect if there is nothing left to be removed from a design.
  
  
