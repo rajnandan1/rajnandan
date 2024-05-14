@@ -108,7 +108,7 @@
   }
 }
   .footer-0-0-4 svg {
-    fill: #09090b;
+    fill: #0e1e08;
   }
   .footer-0-0-4 {
     box-shadow: none;
@@ -312,7 +312,7 @@
   }
 }
   .contentnav-0-0-10 a {
-    color: #09090b;
+    color: #0e1e08;
     display: block;
     opacity: 0.2;
     text-decoration: none;
@@ -365,7 +365,7 @@
   -webkit-tap-highlight-color: transparent;
 }
 body {
-  color: #09090b;
+  color: #0e1e08;
   width: 100vw;
   margin: 0;
   padding: 0;
@@ -414,7 +414,7 @@ table th, table td {
   text-align: left;
 }
 table th {
-  border-bottom: 1px solid #C0C0C0;
+  border-bottom: 1px solid #C1C3C0;
 }
 table td {
   border-bottom: 1px solid #e0e0e0;

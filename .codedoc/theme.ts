@@ -4,7 +4,7 @@ import { createTheme } from '@codedoc/core/transport';
 export const theme = /*#__PURE__*/ createTheme({
     light: {
         background: "#fffdf0",
-        text: "#09090b",
+        text: "#0e1e08",
         primary: "#7469B6",
     },
     dark: {

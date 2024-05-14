@@ -13,7 +13,7 @@ export function customCSS() {
                     <style>
                         {`
 							html {
-								font-size:20px;
+								font-size:18px;
 								line-height:1.6;
 							}
 							a {
