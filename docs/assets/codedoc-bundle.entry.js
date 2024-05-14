@@ -14,22 +14,14 @@ import { tocHighlight } from '/Users/raj/githubprojects/rajnandan/.codedoc/node_
 import { postNavSearch } from '/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/search/post-nav/index.js';postNavSearch();
 import { copyLineLinks } from '/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-links/copy-line-link.js';copyLineLinks();
 import { gatherFootnotes } from '/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/footnote/gather-footnotes.js';gatherFootnotes();
-import { GithubSearch } from '/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/misc/github/search.js';
 import { ToCToggle } from '/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js';
 import { DarkModeSwitch } from '/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js';
 import { ConfigTransport } from '/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js';
-import { TabSelector } from '/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/tabs/selector.js';
-import { CollapseControl } from '/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/collapse/collapse-control.js';
-import { ToCPrevNext } from '/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js';
 
 const components = {
-  'Sk6WzDAnBz2bZBwLK+9fAw==': GithubSearch,
   '4VhA9+6pdPZ8z+YbuQBRhw==': ToCToggle,
   'EyMAZzsbxPR8G+Mu+8iPcQ==': DarkModeSwitch,
-  '1hXAtiTt8J9Q/JD8u8oSqQ==': ConfigTransport,
-  'eg4iFzr4fbvyuwNuRE7e1g==': TabSelector,
-  'i6yQhyhK3rvTVfcte1FtHw==': CollapseControl,
-  'oQo1cICrsj+8R/VOO2kbpA==': ToCPrevNext
+  '1hXAtiTt8J9Q/JD8u8oSqQ==': ConfigTransport
 };
 
 const renderer = getRenderer();

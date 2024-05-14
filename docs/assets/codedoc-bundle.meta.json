@@ -78,11 +78,6 @@
   ],
   "components": [
     {
-      "name": "GithubSearch",
-      "filename": "/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/misc/github/search.js",
-      "hash": "Sk6WzDAnBz2bZBwLK+9fAw=="
-    },
-    {
       "name": "ToCToggle",
       "filename": "/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js",
       "hash": "4VhA9+6pdPZ8z+YbuQBRhw=="
@@ -96,21 +91,6 @@
       "name": "ConfigTransport",
       "filename": "/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js",
       "hash": "1hXAtiTt8J9Q/JD8u8oSqQ=="
-    },
-    {
-      "name": "TabSelector",
-      "filename": "/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/tabs/selector.js",
-      "hash": "eg4iFzr4fbvyuwNuRE7e1g=="
-    },
-    {
-      "name": "CollapseControl",
-      "filename": "/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/collapse/collapse-control.js",
-      "hash": "i6yQhyhK3rvTVfcte1FtHw=="
-    },
-    {
-      "name": "ToCPrevNext",
-      "filename": "/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js",
-      "hash": "oQo1cICrsj+8R/VOO2kbpA=="
     }
   ],
   "renderer": {
