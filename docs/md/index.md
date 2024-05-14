@@ -19,7 +19,7 @@ Hello everyone! I am Raj Nandan Sharma.
 
 Here are few things about me:
 
-- I have been writing code since 2012. Even though my day job is being a manager but I still love to write code.
+- I have been writing code to build something meaningful to me since 2012. 
 - I have built softwares that are being used by millions of users.
 - Currently I am writing code in Go, Svelte and NodeJS
 - I don't like cognitive overload, I like to keep things simple and minimal.
