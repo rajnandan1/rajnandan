@@ -1,6 +1,6 @@
 > :MetaOverride target=description
 >
-> About Raj Nandan Sharma. Engineering Leader
+> Raj Nandan Sharma - Tech enthusiast, dabbles in Go, Svelte, NodeJS. 
 
 > :MetaOverride target=keywords, behavior=extend
 >
