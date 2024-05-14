@@ -1,5 +1,8 @@
 
 import { configuration } from '@codedoc/core';
+import { msClarity } from "./plugins/ms-clarity";
+import { customCSS } from "./plugins/css";
+import { codingBlog } from '@codedoc/coding-blog-plugin';  // --> import the plugin
 
 import { theme } from './theme';
 
@@ -10,7 +13,7 @@ export const config = /*#__PURE__*/ configuration({
         namespace: "", // --> your github pages namespace. remove if you are using a custom domain.
     },
     page: {
-		favicon: "/assets/images/favicon.ico",
+        favicon: "/assets/images/favicon.ico",
         title: {
             base: "Raj Nandan Sharma", // --> the base title of your doc pages
         },
@@ -27,4 +30,9 @@ export const config = /*#__PURE__*/ configuration({
             repo: "rajnandan", // --> your github repo name
         },
     },
+    plugins: [
+        msClarity(),
+        codingBlog(), 
+		customCSS(),
+    ],
 });

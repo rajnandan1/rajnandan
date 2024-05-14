@@ -40,7 +40,6 @@ export function content(
         >
             {_content}
             <ContentNav content={_content} />
-            <LeftHeader /> {/* --> also add the header itself! */}
         </Page>
     );
 }

@@ -13,7 +13,7 @@ const _FooterStyle = themedStyle((theme: CodedocTheme) => {
             extend: parent.footer, // --> simply extend them
             "& svg": { fill: theme.light.text },
             "&": { boxShadow: "none" },
-            "& .main": { textAlign: "left", paddingLeft: "24px" },
+            "& .main": { textAlign: "center" },
             "body.dark & svg": { fill: theme.dark.text },
             "@media screen and (min-width: 1200px)": {
                 // --> and make the left corner of the footer disappear on desktops

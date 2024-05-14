@@ -11,6 +11,11 @@
       "hash": "sdgkAWJ34dNSrQNRS8Eg3w=="
     },
     {
+      "name": "countCards",
+      "filename": "/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/article-card/count-cards.js",
+      "hash": "RIQn8pSvtn8Frc8m+U0lHw=="
+    },
+    {
       "name": "codeSelection",
       "filename": "/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/selection.js",
       "hash": "TnldcB2sQ0FNHpMNAOru+w=="
@@ -77,11 +82,6 @@
     }
   ],
   "components": [
-    {
-      "name": "ToCToggle",
-      "filename": "/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js",
-      "hash": "4VhA9+6pdPZ8z+YbuQBRhw=="
-    },
     {
       "name": "DarkModeSwitch",
       "filename": "/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js",
