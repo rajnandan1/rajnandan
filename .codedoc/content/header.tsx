@@ -42,10 +42,13 @@ export function Header(
     return (
         <div class={classes.header}>
             <a href="/" class="nav-link">
-                About me
+                Home Page
             </a>
             <a href="/projects" class="nav-link">
                 Projects
+            </a>
+            <a href="/games" class="nav-link">
+                Video Games
             </a>
         </div>
     );

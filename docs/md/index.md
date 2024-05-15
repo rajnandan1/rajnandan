@@ -28,5 +28,21 @@ Here are few things about me:
 - I like souls-like games.
 - Personal Projects that I am working on can be found  [here](/projects)
 - Knack for good UX and UI. It is perfect if there is nothing left to be removed from a design.
+
+
+## Sections
+
+### Video Games
+
+See the games that I have played and loved. Go to [video games](/games) to see.
+
+### Projects
+
+Here are few of my personal projects that I am working on. Go to [projects](/projects) to see.
+
+### Latest Blog Posts
+
+
  
  
+
