@@ -32,7 +32,7 @@ export function msClarity() {
 								setInterval(() => {
 									const millisecondsSinceUTCDate = getMillisecondsSinceUTCDate(utcDate);
 									age.innerHTML = (millisecondsSinceUTCDate/secondsInYear).toFixed(8);
-								}, 1);
+								}, 400);
 								
 							});
 						`}
