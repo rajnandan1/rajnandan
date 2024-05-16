@@ -43,19 +43,30 @@
     text-align: left;
   }
   .header-0-0-3 .nav-link svg path {
-    fill: #7469B6;
+    fill: #8E7AB5;
   }
   body.dark .header-0-0-3 .nav-link svg path {
-    fill: #7469B6;
+    fill: #a6e3a1;
   }
   .header-0-0-3 .nav-link {
+    color: #45475a;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 400 !important;
     margin-right: 15px;
     text-decoration: none;
   }
+  .header-0-0-3 .nav-link.selected {
+    color: #8E7AB5;
+    font-weight: 500 !important;
+  }
   .header-0-0-3 .nav-link:hover {
     text-decoration: underline;
+  }
+  body.dark .header-0-0-3 .nav-link {
+    color: #cdd6f4;
+  }
+  body.dark .header-0-0-3 .nav-link.selected {
+    color: #a6e3a1;
   }
 @media screen and (min-width: 1200px) {
   .header-0-0-3 .left {
@@ -82,11 +93,11 @@
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .footer-0-0-4 {
-    background: rgba(9, 9, 11, 0.85);
+    background: rgba(17, 17, 27, 0.85);
   }
 }
   body.dark .footer-0-0-4 {
-    background: rgba(9, 9, 11, 0.85);
+    background: rgba(17, 17, 27, 0.85);
   }
   .footer-0-0-4 .main {
     overflow: hidden;
@@ -108,13 +119,13 @@
   }
 }
   .footer-0-0-4 svg {
-    fill: #0e1e08;
+    fill: #45475a;
   }
   .footer-0-0-4 {
     box-shadow: none;
   }
   body.dark .footer-0-0-4 svg {
-    fill: #fffdf0;
+    fill: #cdd6f4;
   }
 @media screen and (min-width: 1200px) {
   .footer-0-0-4 .left {
@@ -253,12 +264,12 @@
     border-bottom-right-radius: 0;
   }
   body.dark .toc-0-0-7 a.current {
-    background: hsl(240, 10%, 4%);
+    background: hsl(240, 22.7%, 8.8%);
     border-color: #09090b;
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .toc-0-0-7 a.current {
-    background: #09090b;
+    background: #11111b;
     border-color: #09090b;
   }
 }
@@ -270,11 +281,11 @@
   }
 }
   body.dark .toc-0-0-7 a:hover {
-    background: hsl(240, 10%, 4%);
+    background: hsl(240, 22.7%, 8.8%);
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .toc-0-0-7 a:hover {
-    background: hsl(240, 10%, 4%);
+    background: hsl(240, 22.7%, 8.8%);
   }
 }
   body.dark-mode-animate .toc-0-0-7.animated {
@@ -312,7 +323,7 @@
   }
 }
   .contentnav-0-0-10 a {
-    color: #0e1e08;
+    color: #45475a;
     display: block;
     opacity: 0.2;
     text-decoration: none;
@@ -322,26 +333,26 @@
     border-color: #313131;
   }
   body:not(.dark-mode-animate) .contentnav-0-0-10 a {
-    color: #fffdf0;
+    color: #cdd6f4;
   }
   body:not(.dark-mode-animate) .contentnav-0-0-10 a:hover, body:not(.dark-mode-animate) .contentnav-0-0-10 a.active {
-    color: #7469B6;
+    color: #a6e3a1;
   }
 }
   body.dark .contentnav-0-0-10 {
     border-color: #313131;
   }
   body.dark .contentnav-0-0-10 a {
-    color: #fffdf0;
+    color: #cdd6f4;
   }
   body.dark .contentnav-0-0-10 a:hover, body.dark .contentnav-0-0-10 a.active {
-    color: #7469B6;
+    color: #a6e3a1;
   }
   body.dark-mode-animate .contentnav-0-0-10 a {
     transition: color .3s, opacity .3s;
   }
   .contentnav-0-0-10 a:hover, .contentnav-0-0-10 a.active {
-    color: #7469B6;
+    color: #8E7AB5;
     opacity: 1;
   }
   .contentnav-0-0-10 a.h2 {
@@ -365,7 +376,7 @@
   -webkit-tap-highlight-color: transparent;
 }
 body {
-  color: #0e1e08;
+  color: #45475a;
   width: 100vw;
   margin: 0;
   padding: 0;
@@ -378,7 +389,7 @@ body.dark-mode-animate {
   transition: color .3s, background .3s;
 }
 a {
-  color: #7469B6;
+  color: #8E7AB5;
 }
 a:hover {
   text-decoration: underline;
@@ -389,11 +400,11 @@ body.dark-mode-animate a {
 }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) a {
-    color: #7469B6;
+    color: #a6e3a1;
   }
 }
 body.dark a {
-  color: #7469B6;
+  color: #a6e3a1;
 }
 .container {
   margin: 0 auto;
@@ -414,7 +425,7 @@ table th, table td {
   text-align: left;
 }
 table th {
-  border-bottom: 1px solid #C1C3C0;
+  border-bottom: 1px solid #C9C9CC;
 }
 table td {
   border-bottom: 1px solid #e0e0e0;
@@ -446,11 +457,11 @@ body.dark table td {
   }
 }
 body.dark table th {
-  border-color: #50504E;
+  border-color: #484A4E;
 }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) table th {
-    border-color: #50504E;
+    border-color: #484A4E;
   }
 }
 body.dark-mode-animate table th, body.dark-mode-animate table td {
@@ -504,8 +515,8 @@ body.dark-mode-animate blockquote:after {
 }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) {
-    color: #fffdf0;
-    background: #09090b;
+    color: #cdd6f4;
+    background: #11111b;
   }
   body:not(.dark-mode-animate) blockquote {
     color: #cacaca;
@@ -517,8 +528,8 @@ body.dark-mode-animate blockquote:after {
   }
 }
 body.dark {
-  color: #fffdf0;
-  background: #09090b;
+  color: #cdd6f4;
+  background: #11111b;
 }
 body.dark blockquote {
   color: #cacaca;

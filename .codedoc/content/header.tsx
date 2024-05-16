@@ -22,10 +22,21 @@ const _HeaderStyle = themedStyle((theme: CodedocTheme) => {
             "& .nav-link": {
                 marginRight: "15px",
                 textDecoration: "none",
-                fontWeight: 400,
                 fontSize: "14px",
+                fontWeight: "400 !important",
+                color: theme.light.text,
+            },
+            "& .nav-link.selected": {
+                fontWeight: "500 !important",
+                color: theme.light.primary,
             },
             "& .nav-link:hover": { textDecoration: "underline" },
+            "body.dark & .nav-link": {
+                color: theme.dark.text,
+            },
+            "body.dark & .nav-link.selected": {
+                color: theme.dark.primary,
+            },
             "@media screen and (min-width: 1200px)": {
                 // --> and make the left corner of the footer disappear on desktops
                 "& .left": { opacity: 0 },
