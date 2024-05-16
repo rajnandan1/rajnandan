@@ -28,13 +28,14 @@ export function msClarity() {
 								
 								const utcDate = '1990-11-14T12:30:14';
 								const secondsInYear = 365*86400*1000;
-								const age = document.getElementById("age");
-								if(age){
-									setInterval(() => {
+								
+								setInterval(() => {
+									const age = document.getElementById("age");
+									if(age){
 										const millisecondsSinceUTCDate = getMillisecondsSinceUTCDate(utcDate);
 										age.innerHTML = (millisecondsSinceUTCDate/secondsInYear).toFixed(8);
-									}, 400);
-								}
+									}
+								}, 400);
 								
 								const url = new URL(location.href);
 								const pathname = url.pathname; 
