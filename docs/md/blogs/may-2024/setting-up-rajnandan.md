@@ -1,4 +1,4 @@
-# How did I built this personal website
+# How I built this personal website
 
 
 ## Creating a github repository
