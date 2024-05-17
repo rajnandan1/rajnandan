@@ -15,12 +15,17 @@ import { tocHighlight } from '/Users/raj/githubprojects/rajnandan/.codedoc/node_
 import { postNavSearch } from '/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/search/post-nav/index.js';postNavSearch();
 import { copyLineLinks } from '/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-links/copy-line-link.js';copyLineLinks();
 import { gatherFootnotes } from '/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/footnote/gather-footnotes.js';gatherFootnotes();
+import { reloadOnChange } from '/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/serve/reload.js';reloadOnChange();
 import { DarkModeSwitch } from '/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js';
 import { ConfigTransport } from '/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js';
+import { ArticleCard } from '/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/article-card/index.js';
+import { Author } from '/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/author/index.js';
 
 const components = {
   'EyMAZzsbxPR8G+Mu+8iPcQ==': DarkModeSwitch,
-  '1hXAtiTt8J9Q/JD8u8oSqQ==': ConfigTransport
+  '1hXAtiTt8J9Q/JD8u8oSqQ==': ConfigTransport,
+  'XLslJ8bB1oBj5YXBSZsINw==': ArticleCard,
+  '1Icf8szCFKlIY89Ls8Wp2g==': Author
 };
 
 const renderer = getRenderer();

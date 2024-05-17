@@ -20,7 +20,8 @@ The first console my family got me was when I got first rank in my class, I was 
 
 ## Second console
 
-The first console my family got me was when I got first rank in my class, I was in 5th standard. It was a 8-bit console. It had 9999 games in 1. I have fold memories of playing 
+The second console I got was a rip off of Playstation 1 that had those cassettes 9999 in 1. It was plugged into a TV.
+
 - Contra
 - Mario
 - Duck Hunt

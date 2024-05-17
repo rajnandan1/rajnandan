@@ -40,9 +40,8 @@ See the games that I have played and loved. Go to [video games](/games) to see.
 
 Here are few of my personal projects that I am working on. Go to [projects](/projects) to see.
 
+
+
 ### Latest Blog Posts
-
-
- 
- 
+> :ArticleCard src=/blogs/may-2024/setting-up-rajnandan
 

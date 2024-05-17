@@ -2,6 +2,7 @@
 import { configuration } from '@codedoc/core';
 import { msClarity } from "./plugins/ms-clarity";
 import { customCSS } from "./plugins/css";
+import { customJS } from "./plugins/js";
 import { codingBlog } from '@codedoc/coding-blog-plugin';  // --> import the plugin
 
 import { theme } from './theme';
@@ -34,5 +35,6 @@ export const config = /*#__PURE__*/ configuration({
         msClarity(),
         codingBlog(), 
 		customCSS(),
+		customJS()
     ],
 });

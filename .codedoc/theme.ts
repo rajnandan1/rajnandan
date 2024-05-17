@@ -11,15 +11,5 @@ export const theme = /*#__PURE__*/ createTheme({
         background: "#11111b",
         text: "#cdd6f4",
         primary: "#a6e3a1",
-    },
-    toc: {
-        light: {
-            background: "#fffdf0",
-            border: "#fffdf0",
-        },
-        dark: {
-            background: "#09090b",
-            border: "#09090b",
-        },
-    },
+    }
 });

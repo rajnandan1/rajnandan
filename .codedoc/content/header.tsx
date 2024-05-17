@@ -61,6 +61,9 @@ export function Header(
             <a href="/games" class="nav-link">
                 Video Games
             </a>
+            <a href="/blogs/" class="nav-link">
+                Blog
+            </a>
         </div>
     );
 }
