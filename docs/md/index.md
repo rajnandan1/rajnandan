@@ -1,6 +1,12 @@
+> :MetaOverride property=og:image
+>
+> https://www.rajnandan.com/assets/images/og.jpg
+
 > :MetaOverride property=og:description
 >
-> About me
+> Raj Nandan Sharma - Tech enthusiast, dabbles in Go, Svelte, NodeJS. 
+
+
 > :MetaOverride target=description
 >
 > Raj Nandan Sharma - Tech enthusiast, dabbles in Go, Svelte, NodeJS. 

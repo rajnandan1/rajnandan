@@ -1,3 +1,7 @@
+> :MetaOverride property=og:image
+>
+> https://www.rajnandan.com/assets/images/og-images/blogs-index.png
+
 > :MetaOverride property=og:description
 >
 > Thoughts put here are my own and does represent my employer

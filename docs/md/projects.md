@@ -1,3 +1,7 @@
+> :MetaOverride property=og:image
+>
+> https://www.rajnandan.com/assets/images/og-images/projects.png
+
 > :MetaOverride property=og:description
 >
 > Rajnandan's Projects

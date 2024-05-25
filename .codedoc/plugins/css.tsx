@@ -19,6 +19,9 @@ export function customCSS() {
 							a {
 								font-weight: 500;
 							}
+							a[class^="cs--author"] {
+								margin-top: 1rem;
+							}
 							
 						`}
                     </style>,

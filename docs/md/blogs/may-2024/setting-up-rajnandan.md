@@ -1,3 +1,7 @@
+> :MetaOverride property=og:image
+>
+> https://www.rajnandan.com/assets/images/og-images/blogs-may-2024-setting-up-rajnandan.png
+
 > :MetaOverride property=og:description
 >
 > Sign up for a github account and create a new repository. Keep the repository public. My username is rajnandan1 and I created a repository called rajnandan. 

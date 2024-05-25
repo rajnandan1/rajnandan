@@ -1,3 +1,7 @@
+> :MetaOverride property=og:image
+>
+> https://www.rajnandan.com/assets/images/og-images/blogs-may-2024-browser-window-mq.png
+
  
 
 > :MetaOverride property=og:description
@@ -311,8 +315,7 @@ Popup will send a message to parent, and expects a response from parent within 5
 > > </script>
 > > ```
 
-
-		
+	
 > :Author name=Raj Nandan Sharma,
 > date=18th May 2024,
 > avatar=/assets/images/me.jpg,

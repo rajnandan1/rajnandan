@@ -1,3 +1,7 @@
+> :MetaOverride property=og:image
+>
+> https://www.rajnandan.com/assets/images/og-images/games.png
+
 > :MetaOverride property=og:description
 >
 > Video Games
