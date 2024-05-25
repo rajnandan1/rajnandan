@@ -98,6 +98,11 @@
       "hash": "XLslJ8bB1oBj5YXBSZsINw=="
     },
     {
+      "name": "TabSelector",
+      "filename": "/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/tabs/selector.js",
+      "hash": "eg4iFzr4fbvyuwNuRE7e1g=="
+    },
+    {
       "name": "Author",
       "filename": "/Users/raj/githubprojects/rajnandan/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/author/index.js",
       "hash": "1Icf8szCFKlIY89Ls8Wp2g=="

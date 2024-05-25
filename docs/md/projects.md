@@ -1,4 +1,9 @@
-# Personal Projects
+> :MetaOverride property=og:description
+>
+> Rajnandan's Projects
+
+
+# Rajnandan's Projects
 
 Here are few of my personal projects that I am working on. Some of them are at [github](https://github.com/rajnandan1) and some are hosted on my own servers.
 

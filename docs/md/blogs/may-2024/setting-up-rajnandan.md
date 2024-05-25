@@ -1,3 +1,8 @@
+> :MetaOverride property=og:description
+>
+> Sign up for a github account and create a new repository. Keep the repository public. My username is rajnandan1 and I created a repository called rajnandan. 
+
+
 # How I built this personal website
 
 
@@ -186,7 +191,9 @@ Buy a domain and make DNS changes as shown below. The same you will have to add 
 
 ![GH Pages Config](/assets/images/gh-pages.png "GH Pages Config")
 
+## Connect with Obsidian
 
+Also I am using [obsidian](https://obsidian.md/) to write the markdown. Just add the root folder as a vault in obsidian.
 
 ---
 

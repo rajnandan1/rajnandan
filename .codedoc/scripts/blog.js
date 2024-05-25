@@ -82,10 +82,11 @@ folders.forEach((folder) => {
 > avatar=/assets/images/me.jpg,
 > url=https://www.rajnandan.com   
 		`;
+
 		//append authorCard to file content at bottom if it does exist
 		const authorCardRegex = new RegExp(`^> :Author name=`, "gm");
 		if(!authorCardRegex.test(data)) {
-			fs.writeFileSync(filePath, data + "\n" + authorCard);
+			fs.writeFileSync(filePath, data + authorCard);
 		}
 		folder.files.push({
             name: heading.trim().substring(1).trim(),

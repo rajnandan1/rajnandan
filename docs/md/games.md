@@ -1,3 +1,10 @@
+> :MetaOverride property=og:description
+>
+> Video Games
+
+
+
+
 # Video Games
 
 I always loved playing video games. I remember the first time when I saw a game being played on a computer. There was this person as a tenant in our house. I was probably 9 years old (3rd standard)

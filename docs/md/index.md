@@ -1,3 +1,6 @@
+> :MetaOverride property=og:description
+>
+> About me
 > :MetaOverride target=description
 >
 > Raj Nandan Sharma - Tech enthusiast, dabbles in Go, Svelte, NodeJS. 
@@ -6,9 +9,7 @@
 >
 > rajnandansharma, rajnandan, raj, nandan, sharma, purplewow, wow, dota, dota2, world of warcraft, cashfree, payments, associate director, engineering, bengaluru, india, golang, go, svelte, nodejs, software, manager, code, cognitive overload, simple, minimal, souls-like, games, personal projects, projects, kener
 
-> :MetaOverride property=og:image
->
-> https://rajnandan.com/assets/images/og.jpg
+
 
 
 # About me
@@ -43,5 +44,5 @@ Here are few of my personal projects that I am working on. Go to [projects](/pro
 
 
 ### Latest Blog Posts
-> :ArticleCard src=/blogs/may-2024/setting-up-rajnandan
+> :ArticleCard src=/blogs/may-2024/browser-window-mq
 
