@@ -1,3 +1,11 @@
+> :MetaOverride property=og:description
+>
+> While building projects I tend to look for colors that I had found earlier and then I never could find them. I figured I would keep a list
+
+> :MetaOverride property=og:image
+>
+> https://www.rajnandan.com/assets/images/og-images/colors.png
+
 # Colors that I like
 
 While building projects I tend to look for colors that I had found earlier and then I never could find them. I figured I would keep a list
