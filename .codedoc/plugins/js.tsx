@@ -30,7 +30,7 @@ export function customJS() {
 								const headerLinkClass = document.getElementsByClassName("nav-link");
 								for (let i = 0; i < headerLinkClass.length; i++) {
 									const link = headerLinkClass[i];
-									if (link.getAttribute("href").startsWith(pathname)) {
+									if (link.getAttribute("href") == pathname) {
 										link.classList.add('selected');
 									} else {
 										link.classList.remove('selected');
@@ -47,6 +47,19 @@ export function customJS() {
 									});
 								}
 
+								//event listener for div which has data-color-type
+								document.addEventListener("click", function (event) {
+									const colorBox = event.target.closest('[data-color-type]');
+									if (colorBox) {
+										const color = colorBox.innerText;
+										const colorType = colorBox.getAttribute('data-color-type');
+										if (colorType === 'bg') {
+											document.body.style.backgroundColor = color;
+										} else if (colorType === 'text') {
+											document.body.style.color = color;
+										}
+									}
+								});
 								
 							});
 						`}

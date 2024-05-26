@@ -1,10 +1,10 @@
 
-import { configuration } from '@codedoc/core';
+import { configuration, DefaultMarkdownCustomComponents } from "@codedoc/core";
 import { msClarity } from "./plugins/ms-clarity";
 import { customCSS } from "./plugins/css";
 import { customJS } from "./plugins/js";
 import { codingBlog } from '@codedoc/coding-blog-plugin';  // --> import the plugin
-
+import { ColorBox } from "./components/colorbox"; // --> import the component
 import { theme } from './theme';
 
 
@@ -31,10 +31,11 @@ export const config = /*#__PURE__*/ configuration({
             repo: "rajnandan", // --> your github repo name
         },
     },
-    plugins: [
-        msClarity(),
-        codingBlog(), 
-		customCSS(),
-		customJS()
-    ],
+    plugins: [msClarity(), codingBlog(), customCSS(), customJS()],
+    markdown: {
+        customComponents: {
+            ...DefaultMarkdownCustomComponents,
+            ColorBox, // --> add the component to the markdown custom components
+        },
+    },
 });
