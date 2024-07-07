@@ -42,8 +42,10 @@ While building projects I tend to look for colors that I had found earlier and t
 
 ## 🎨 Primary Colors
 
-> :ColorBox color=#ed702d
 
-> :ColorBox color=#a6e3a1
 
-> :ColorBox color=#8E7AB5
+> :ColorBox color=#ed702d, type=theme
+
+> :ColorBox color=#a6e3a1, type=theme
+
+> :ColorBox color=#8E7AB5, type=theme

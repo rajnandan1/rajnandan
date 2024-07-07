@@ -57,6 +57,17 @@ export function customJS() {
 											document.body.style.backgroundColor = color;
 										} else if (colorType === 'text') {
 											document.body.style.color = color;
+										} else if (colorType === 'theme') {
+											//write css to change a color
+											const css = \`
+												a {
+													color: \${color} !important;
+												}
+											\`;
+											const style = document.createElement('style');
+											style.appendChild(document.createTextNode(css));
+											document.head.appendChild(style);
+
 										}
 									}
 								});

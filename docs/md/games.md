@@ -96,4 +96,4 @@ I got this in 2021. It was around 50,000 INR. Once I started on PS5, I also star
 
 ## Currently Playing
 
-- Star Wars Jedi Survivor
+- Sniper Elite 5
