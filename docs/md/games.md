@@ -15,7 +15,7 @@ Rating the games I have played
 -   God of War ⭐⭐⭐⭐
 -   God of War Ragnarok ⭐⭐⭐
 -   Horizon Zero Dawn ⭐⭐⭐
--   Last of Us 1 ⭐⭐⭐⭐⭐
+-   Last of Us 1 ⭐⭐⭐⭐
 -   Last of Us 2 ⭐⭐⭐
 -   Days Gone. Please create part 2 ⭐⭐⭐⭐⭐
 -   Dying Light 2 ⭐⭐⭐⭐

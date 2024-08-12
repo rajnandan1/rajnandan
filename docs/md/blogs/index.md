@@ -8,7 +8,7 @@
 
 # My Blog
 
-Thoughts put here are my own and does represent my employer
+Thoughts put here are my own and does not represent my employer
 
 ## July 2024
 
