@@ -14,7 +14,7 @@ Thoughts put here are my own and does not represent my employer
 
 -   [Promql Practical Examples](/blogs/jul-2024/promql)
 
-## MAY 2024
+## May 2024
 
 -   [Messaging between Browser Windows using ruto.js](/blogs/may-2024/browser-window-mq)
 -   [How I built this personal website](/blogs/may-2024/setting-up-rajnandan)
