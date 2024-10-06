@@ -4,51 +4,39 @@
 
 > :MetaOverride property=og:description
 >
-> Raj Nandan Sharma - Tech enthusiast, dabbles in Go, Svelte, NodeJS. 
-
+> Raj Nandan Sharma - Tech enthusiast, dabbles in Go, Svelte, NodeJS.
 
 > :MetaOverride target=description
 >
-> Raj Nandan Sharma - Tech enthusiast, dabbles in Go, Svelte, NodeJS. 
+> Raj Nandan Sharma - Tech enthusiast, dabbles in Go, Svelte, NodeJS.
 
 > :MetaOverride target=keywords, behavior=extend
 >
 > rajnandansharma, rajnandan, raj, nandan, sharma, purplewow, wow, dota, dota2, world of warcraft, cashfree, payments, associate director, engineering, bengaluru, india, golang, go, svelte, nodejs, software, manager, code, cognitive overload, simple, minimal, souls-like, games, personal projects, projects, kener
 
-
-
-
-# About me
-
-<img src="/assets/images/me.jpg" style="widht: 60px;height:60px;border-radius:30px;filter: grayscale(100%);">
-
 Hello everyone! I am Raj Nandan Sharma (<span id="age"></span> years old).
 
-Here are few things about me:
+I have been writing code since 2012, building software used by millions of users.
+Currently, I code in Go, Svelte, and NodeJS, and I prefer simplicity and minimalism. I work at [Cashfree Payments](https://cashfree.com) as an Associate Director of Engineering in Bengaluru, India.
+Known as purplewow, inspired by World of Warcraft, I enjoy DOTA and souls-like games.
+My personal projects are available [here](/projects), and I have a keen eye for good UX and UI, believing that perfection is achieved when there is nothing left to remove from a design.
 
-- I have been writing code to build something meaningful to me since 2012. 
-- I have built softwares that are being used by millions of users.
-- Currently I am writing code in Go, Svelte and NodeJS
-- I don't like cognitive overload, I like to keep things simple and minimal.
-- Currently I am working at [Cashfree Payments](https://cashfree.com) as an Associate Director of Engineering, Bengaluru, India.
-- One of my alias is purplewow. WOW from World of Warcraft. Loved every bit of [DOTA](https://www.dota2.com/home).
-- I like souls-like games.
-- Personal Projects that I am working on can be found  [here](/projects)
-- Knack for good UX and UI. It is perfect if there is nothing left to be removed from a design.
+## Projects
 
+> :CardBox width=50%, height=220px, logo=https://kener.ing/logo.png, title=Kener.ing, desc=Open-Source and Modern-looking Node.js Status Page for Effortless Incident Management, link=https://kener.ing
 
-## Sections
+> :CardBox width=50%, height=220px, logo=https://okbookmarks.com/app/mybookmark.png, title=OkBookmarks, desc=Stop forgetting about your bookmarks. Add a URL about anything then whenever you have a query about something just search for it! , link=https://okbookmarks.com
 
-### Video Games
+> :CardBox width=50%, height=220px, logo=https://www.frogment.app/icons/Square107x107Logo.png, title=Frogment Mac app, desc=Frogment aims to give the best Experience while editing your OpenAPI specification with a complete IDE., link=https://www.frogment.app
 
-See the games that I have played and loved. Go to [video games](/games) to see.
+> :CardBox width=50%, height=220px, logo=https://www.frogment.com/images/site-logo.svg, title=Frogment Web Editor, desc=A free openAPI spec editor and linter that breaks down your spec into fragments to make editing easier and more intuitive., link=https://www.frogment.com
 
-### Projects
+> :CardBox width=50%, height=220px, logo=https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png,title=go-tripper, desc=The Go Tripper package provides functionality for monitoring the status of a circuit. Track success and failure counts; implement circuit breaker patterns; and manage service availability., link=https://github.com/rajnandan1/go-tripper
 
-Here are few of my personal projects that I am working on. Go to [projects](/projects) to see.
+> :CardBox width=50%, height=220px, logo=https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png,title=okgit, desc=Write conventional commit messages easily, link=https://github.com/rajnandan1/okgit
 
+> :CardBox width=50%, height=220px, logo=https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png,title= brutopia , desc="A remarkable bootstrap theme, a captivating blend of readability and neo-brutalist design principles." , link=https://github.com/rajnandan1/brutopia
 
+> :CardBox width=50%, height=220px, logo=https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png,title= floodlightjs , desc="Easily create key board shortcuts for your JS functions. Built using JS only with no other dependency. Inspired from MacOS spotlight " , link=https://github.com/rajnandan1/floodlightjs
 
-### Latest Blog Posts
-> :ArticleCard src=/blogs/may-2024/browser-window-mq
-
+> :CardBox width=50%, height=220px, logo=https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png,title= ruto , desc="Ruto is a library that streamlines communication between browser window to iframes or popups. It uses client server design pattern" , link=https://github.com/rajnandan1/ruto

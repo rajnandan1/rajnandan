@@ -1,12 +1,11 @@
-
 import { configuration, DefaultMarkdownCustomComponents } from "@codedoc/core";
 import { msClarity } from "./plugins/ms-clarity";
 import { customCSS } from "./plugins/css";
 import { customJS } from "./plugins/js";
-import { codingBlog } from '@codedoc/coding-blog-plugin';  // --> import the plugin
+import { codingBlog } from "@codedoc/coding-blog-plugin"; // --> import the plugin
 import { ColorBox } from "./components/colorbox"; // --> import the component
-import { theme } from './theme';
-
+import { CardBox } from "./components/cardbox"; // --> import the component
+import { theme } from "./theme";
 
 export const config = /*#__PURE__*/ configuration({
     theme, // --> add the theme. modify `./theme.ts` for changing the theme.
@@ -20,8 +19,8 @@ export const config = /*#__PURE__*/ configuration({
         },
         fonts: {
             text: {
-                url: "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap",
-                name: "Montserrat",
+                url: "https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300..900;1,300..900&display=swap",
+                name: "Work Sans",
             },
         },
     },
@@ -35,7 +34,8 @@ export const config = /*#__PURE__*/ configuration({
     markdown: {
         customComponents: {
             ...DefaultMarkdownCustomComponents,
-            ColorBox, // --> add the component to the markdown custom components
+            ColorBox,
+            CardBox, // --> add the component to the markdown custom components
         },
     },
 });
