@@ -38,7 +38,7 @@ export const CardBoxStyle = themedStyle<CodedocTheme>((theme) => ({
             top: "1rem",
             right: "1rem",
         },
-        "body.dark &": { color: theme.dark.text },
+        "body.dark & .cnd": { color: theme.dark.text },
         "@media (max-width: 600px)": {
             "&": {
                 width: "100% !important",
