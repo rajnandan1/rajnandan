@@ -1,0 +1,185 @@
+<!DOCTYPE html><html><head><title>Raj Nandan Sharma | A 2x Engineer</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"><meta name="robots" content="index,follow"><meta name="theme-color" content="#212121"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><link rel="shortcut icon" href="/assets/images/favicon.ico"><link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300..900;1,300..900&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/icon?family=Material+Icons%7CMaterial+Icons+Outlined&amp;display=swap" rel="stylesheet"><style>
+      body, input, button {
+        font-family: 'Work Sans', sans-serif;
+      }
+
+      code, .hljs {
+        font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
+      }
+
+      .icon-font {
+        font-family: 'Material Icons';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 24px;  /* Preferred icon size */
+        display: inline-block;
+        line-height: 1;
+        text-transform: none;
+        letter-spacing: normal;
+        word-wrap: normal;
+        white-space: nowrap;
+        direction: ltr;
+      
+        /* Support for all WebKit browsers. */
+        -webkit-font-smoothing: antialiased;
+        /* Support for Safari and Chrome. */
+        text-rendering: optimizeLegibility;
+      
+        /* Support for Firefox. */
+        -moz-osx-font-smoothing: grayscale;
+      
+        /* Support for IE. */
+        font-feature-settings: 'liga';
+      }
+
+      .icon-font.outline {
+        font-family: 'Material Icons Outlined';
+      }
+    </style><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XY8P7ZVPV5"></script><script>
+							window.dataLayer = window.dataLayer || [];
+							function gtag(){dataLayer.push(arguments);}
+							gtag('js', new Date());
+
+							gtag('config', 'G-XY8P7ZVPV5');
+							function getMillisecondsSinceUTCDate(utcDate) {
+								const givenDate = Date.parse(utcDate);
+								const now = Date.now();
+								const milliseconds = now - givenDate;
+								return milliseconds;
+							}
+						</script><script>
+							document.addEventListener("DOMContentLoaded", function () {
+								
+								const utcDate = '1990-11-14T12:30:14';
+								const secondsInYear = 365*86400*1000;
+								
+								setInterval(() => {
+									const age = document.getElementById("age");
+									if(age){
+										const millisecondsSinceUTCDate = getMillisecondsSinceUTCDate(utcDate);
+										age.innerHTML = (millisecondsSinceUTCDate/secondsInYear).toFixed(8);
+									}
+								}, 400);
+								
+								const url = new URL(location.href);
+								const pathname = url.pathname; 
+								const headerLinkClass = document.getElementsByClassName("nav-link");
+								for (let i = 0; i < headerLinkClass.length; i++) {
+									const link = headerLinkClass[i];
+									if (link.getAttribute("href") == pathname) {
+										link.classList.add('selected');
+									} else {
+										link.classList.remove('selected');
+									}
+									
+								}
+								for (let i = 0; i < headerLinkClass.length; i++) {
+									const link = headerLinkClass[i];
+									link.addEventListener("click", function () {
+										for (let j = 0; j < headerLinkClass.length; j++) {
+											headerLinkClass[j].classList.remove('selected');
+										}
+										link.classList.add('selected');
+									});
+								}
+
+								//event listener for div which has data-color-type
+								document.addEventListener("click", function (event) {
+									const colorBox = event.target.closest('[data-color-type]');
+									if (colorBox) {
+										const color = colorBox.innerText;
+										const colorType = colorBox.getAttribute('data-color-type');
+										if (colorType === 'bg') {
+											document.body.style.backgroundColor = color;
+										} else if (colorType === 'text') {
+											document.body.style.color = color;
+										} else if (colorType === 'theme') {
+											//write css to change a color
+											const css = `
+												a {
+													color: ${color} !important;
+												}
+											`;
+											const style = document.createElement('style');
+											style.appendChild(document.createTextNode(css));
+											document.head.appendChild(style);
+
+										}
+									}
+								});
+								
+							});
+						</script><style>
+							html {
+								font-size:16px;
+								line-height:1.6;
+							}
+							a {
+								font-weight: 500;
+							}
+							* {
+								font-family: 'Work Sans', sans-serif;
+							}
+								/* vietnamese */
+							@font-face {
+							font-family: 'Newsreader';
+							font-style: italic;
+							font-weight: 200 800;
+							font-display: swap;
+							src: url(https://fonts.gstatic.com/s/newsreader/v20/cY9CfjOCX1hbuyalUrK439vCgYhCBJWxZCPp.woff2) format('woff2');
+							unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+							}
+							/* latin-ext */
+							@font-face {
+							font-family: 'Newsreader';
+							font-style: italic;
+							font-weight: 200 800;
+							font-display: swap;
+							src: url(https://fonts.gstatic.com/s/newsreader/v20/cY9CfjOCX1hbuyalUrK439vCgIhCBJWxZCPp.woff2) format('woff2');
+							unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+							}
+							/* latin */
+							@font-face {
+							font-family: 'Newsreader';
+							font-style: italic;
+							font-weight: 200 800;
+							font-display: swap;
+							src: url(https://fonts.gstatic.com/s/newsreader/v20/cY9CfjOCX1hbuyalUrK439vCjohCBJWxZA.woff2) format('woff2');
+							unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+							}
+							/* vietnamese */
+							@font-face {
+							font-family: 'Newsreader';
+							font-style: normal;
+							font-weight: 200 800;
+							font-display: swap;
+							src: url(https://fonts.gstatic.com/s/newsreader/v20/cY9AfjOCX1hbuyalUrK439HyjIJFJpeBZQ.woff2) format('woff2');
+							unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+							}
+							/* latin-ext */
+							@font-face {
+							font-family: 'Newsreader';
+							font-style: normal;
+							font-weight: 200 800;
+							font-display: swap;
+							src: url(https://fonts.gstatic.com/s/newsreader/v20/cY9AfjOCX1hbuyalUrK439DyjIJFJpeBZQ.woff2) format('woff2');
+							unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+							}
+							/* latin */
+							@font-face {
+							font-family: 'Newsreader';
+							font-style: normal;
+							font-weight: 200 800;
+							font-display: swap;
+							src: url(https://fonts.gstatic.com/s/newsreader/v20/cY9AfjOCX1hbuyalUrK4397yjIJFJpc.woff2) format('woff2');
+							unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+							}
+
+							h1, h2, h3 {
+								font-family: 'Newsreader', serif;
+							}
+							a[class^="cs--author"] {
+								margin-top: 1rem;
+							}
+							
+						</style><link href="/docs/assets/codedoc-styles.css" rel="stylesheet"><script async="" defer="" src="/docs/assets/codedoc-bundle.js"></script><script>window.githubConfig={"user":"rajnandan1","repo":"rajnandan"}</script><style>.container{padding-top: 0 !important}</style><style>#-codedoc-toc { backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px) }</style><meta name="twitter:title" content="Raj Nandan Sharma | A 2x Engineer"><meta property="og:type" content="article"><meta property="og:title" content="Raj Nandan Sharma | A 2x Engineer"><meta name="keywords" content=""><meta property="blog-tags" content=""></head><body><div class="header-0-0-4"><a href="/" class="nav-link"><img src="/assets/images/me.jpg" style="widht: 24px;height:24px;border-radius:50%;">Raj Nandan Sharma</a></div><div id="-codedoc-container" class="container"><script>window.source = {"base":"docs/md","path":"blogs/nov-2024/2x-engineer.md","namespace":"","title":{"base":"Raj Nandan Sharma","connector":" | "}}</script><h1 id="a-2x-engineer" class="heading-0-0-1"><span class="anchor-0-0-2" data-ignore-text=""><span class="icon-font" data-ignore-text="" style="vertical-align: sub">link</span></span>A 2x Engineer</h1><p>We often hear about 10x engineers but today I want to talk about a 2x engineer. More specifically, I want to talk about what are those two qualities that make a 2x engineer.</p><h2 id="quality-1-decision-making" class="heading-0-0-1"><span class="anchor-0-0-2" data-ignore-text=""><span class="icon-font" data-ignore-text="" style="vertical-align: sub">link</span></span>Quality 1: Decision Making</h2><p>Decision making is important in software development. You would often find yourself in a room with 10 other engineers and managers discussing about a new feature or a project that has to implemented. There would be a point in the meeting that a crucial path has to be selected out of let us say 2 different options. You would have to make a decision and it has to be a time bound exercise.</p><p>This is where a 2x engineer would step up and point out the pros and cons of each path and make a decision. It is important to make sure that you are not just making a decision but also explaining why you made that decision.</p><p>Your Decision should rely on</p><p><strong>Past experiences:</strong> The capability to make a decision comes with experience and knowledge. You would have to have faced similar problems previously even though not entirely similar but you should be able to draw an analogy. Depending on how the past decisions have turned out, you would be able to make a better decision this time.</p><p><strong>Reversibility :</strong> The decision you make should be reversible. If you are not sure about the decision you are making, make sure that you can reverse it. Out of 100 things that you would have to decide on , there would just one or two that would not be reversible. At first you would find that a decision might be irreversible but if you think hard enough, if you are creative enough, you would find a way to reverse it.</p><p><strong>Not everything has to be grandiose:</strong> There are people who job is to make sure that everything looks grandiose. But reality is that more often than not things are simpler, decisions are simpler. Your job is to identify those simpler decisions and make them and make them instantly without needing a meeting to discuss about it.</p><h2 id="quality-2-communication" class="heading-0-0-1"><span class="anchor-0-0-2" data-ignore-text=""><span class="icon-font" data-ignore-text="" style="vertical-align: sub">link</span></span>Quality 2: Communication</h2><p>Communication is the key to success. You might have heard this a lot of times but it is true. You might be the best engineer in the world but if you cannot communicate your ideas, your thoughts, your decisions, your code, you are not going to be successful.</p><p><strong>Writing:</strong> Writing is the most important form of communication. You would have to write a lot of emails, a lot of documentation, a lot of code. If you are not able to write clearly, you are not going to be successful. You would have to write in a way that the reader understands what you are trying to convey. You would have to write in a way that the reader does not have to ask you questions about what you wrote.</p><p><strong>Speaking:</strong> Speaking is another form of communication. You would have to speak in meetings, you would have to speak in interviews, you would have to speak in presentations. If you are not able to speak clearly, you are not going to be successful. You would have to speak in a way that the listener understands what you are trying to convey. You would have to speak in a way that the listener does not have to ask you questions about what you spoke.</p><p><strong>Listening:</strong> Listening is another form of communication. You would have to listen to your peers, your managers, your reports. If you are not able to listen clearly, you are not going to be successful. You would have to listen in a way that you understand what the other person is trying to convey. You would have to listen in a way that you do not have to ask questions about what the other person spoke.</p><p><strong>Timelines</strong>: Give timelines to anything that is asked of you. It may not be favorable to the person asking but it is important to give a timeline.</p><div class="contentnav-0-0-11" data-no-search=""><a href="#a-2x-engineer" class="h1" data-content-highlight="a-2x-engineer">A 2x Engineer</a><a href="#quality-1-decision-making" class="h2" data-content-highlight="quality-1-decision-making">Quality 1: Decision Making</a><a href="#quality-2-communication" class="h2" data-content-highlight="quality-2-communication">Quality 2: Communication</a></div></div><div id="-codedoc-toc" class="toc-0-0-8"><div class="content-0-0-9"><div class="leftHeaderPadding-0-0-7"></div> <p><a href="/">Home</a></p></div></div><div class="footer-0-0-5"><div class="main"><div class="inside"><a href="https://github.com/rajnandan1" target="_blank"><svg fill="{theme.light.background}" width="18" height="18" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"><path d="M12,2.2467A10.00042,10.00042,0,0,0,8.83752,21.73419c.5.08752.6875-.21247.6875-.475,0-.23749-.01251-1.025-.01251-1.86249C7,19.85919,6.35,18.78423,6.15,18.22173A3.636,3.636,0,0,0,5.125,16.8092c-.35-.1875-.85-.65-.01251-.66248A2.00117,2.00117,0,0,1,6.65,17.17169a2.13742,2.13742,0,0,0,2.91248.825A2.10376,2.10376,0,0,1,10.2,16.65923c-2.225-.25-4.55-1.11254-4.55-4.9375a3.89187,3.89187,0,0,1,1.025-2.6875,3.59373,3.59373,0,0,1,.1-2.65s.83747-.26251,2.75,1.025a9.42747,9.42747,0,0,1,5,0c1.91248-1.3,2.75-1.025,2.75-1.025a3.59323,3.59323,0,0,1,.1,2.65,3.869,3.869,0,0,1,1.025,2.6875c0,3.83747-2.33752,4.6875-4.5625,4.9375a2.36814,2.36814,0,0,1,.675,1.85c0,1.33752-.01251,2.41248-.01251,2.75,0,.26251.1875.575.6875.475A10.0053,10.0053,0,0,0,12,2.2467Z"></path></svg></a><span style="margin:0 10px"> </span><a href="https://stackoverflow.com/users/3090583/raj-nandan-sharma" target="_blank"><svg fill="{theme.light.background}" width="18" height="18" viewBox="-4 -2 24 24" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" class="jam jam-stackoverflow"><path d="M13.492 18.136v-5.272h1.665v7.022H.13v-7.022h1.665v5.272z"></path><path d="M3.632 12.364l8.173 1.795.346-1.727-8.173-1.796-.346 1.728zm1.082-4.091l7.567 3.704.692-1.59-7.568-3.728-.691 1.614zm2.097-3.91l6.421 5.614 1.06-1.34L7.87 3.022l-1.06 1.34zM10.962.206L9.622 1.25l4.973 7.045 1.34-1.045L10.962.205zM3.46 16.364h8.346v-1.75H3.46v1.75z"></path></svg></a><span style="margin:0 10px"> </span><a href="https://www.linkedin.com/in/rajnandan1/" target="_blank"><svg fill="{theme.light.background}" width="18" height="18" viewBox="-2 -2 24 24" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" class="jam jam-linkedin"><path d="M19.959 11.719v7.379h-4.278v-6.885c0-1.73-.619-2.91-2.167-2.91-1.182 0-1.886.796-2.195 1.565-.113.275-.142.658-.142 1.043v7.187h-4.28s.058-11.66 0-12.869h4.28v1.824l-.028.042h.028v-.042c.568-.875 1.583-2.126 3.856-2.126 2.815 0 4.926 1.84 4.926 5.792zM2.421.026C.958.026 0 .986 0 2.249c0 1.235.93 2.224 2.365 2.224h.028c1.493 0 2.42-.989 2.42-2.224C4.787.986 3.887.026 2.422.026zM.254 19.098h4.278V6.229H.254v12.869z"></path></svg></a><span style="margin:0 10px"> </span><a href="https://twitter.com/_rajnandan_" target="_blank"><svg fill="{theme.light.background}" width="18" height="18" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"><path d="M22,5.8a8.49,8.49,0,0,1-2.36.64,4.13,4.13,0,0,0,1.81-2.27,8.21,8.21,0,0,1-2.61,1,4.1,4.1,0,0,0-7,3.74A11.64,11.64,0,0,1,3.39,4.62a4.16,4.16,0,0,0-.55,2.07A4.09,4.09,0,0,0,4.66,10.1,4.05,4.05,0,0,1,2.8,9.59v.05a4.1,4.1,0,0,0,3.3,4A3.93,3.93,0,0,1,5,13.81a4.9,4.9,0,0,1-.77-.07,4.11,4.11,0,0,0,3.83,2.84A8.22,8.22,0,0,1,3,18.34a7.93,7.93,0,0,1-1-.06,11.57,11.57,0,0,0,6.29,1.85A11.59,11.59,0,0,0,20,8.45c0-.17,0-.35,0-.53A8.43,8.43,0,0,0,22,5.8Z"></path></svg></a><span style="margin:0 10px"> </span><a href="https://github.com/sponsors/rajnandan1" target="_blank"><svg fill="{theme.light.background}" width="18" height="18" viewBox="0 0 36 36" version="1.1" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>dollar-solid</title><path class="clr-i-solid clr-i-solid-path-1" d="M18,2A16,16,0,1,0,34,18,16,16,0,0,0,18,2Zm7.65,21.59c-1,3-3.61,3.84-5.9,4v2a1.25,1.25,0,0,1-2.5,0V27.59A11.47,11.47,0,0,1,11,25a1.25,1.25,0,1,1,1.71-1.83,9.11,9.11,0,0,0,4.55,1.94V18.83a9.63,9.63,0,0,1-3.73-1.41,4.8,4.8,0,0,1-1.91-5.84c.59-1.51,2.42-3.23,5.64-3.51V6.25a1.25,1.25,0,0,1,2.5,0V8.11a9.67,9.67,0,0,1,4.9,2A1.25,1.25,0,0,1,23,11.95a7.14,7.14,0,0,0-3.24-1.31v6.13c.6.13,1.24.27,1.91.48a5.85,5.85,0,0,1,3.69,2.82A4.64,4.64,0,0,1,25.65,23.59Z"></path><path class="clr-i-solid clr-i-solid-path-2" d="M20.92,19.64c-.4-.12-.79-.22-1.17-.3v5.76c2-.2,3.07-.9,3.53-2.3a2.15,2.15,0,0,0-.15-1.58A3.49,3.49,0,0,0,20.92,19.64Z"></path><path class="clr-i-solid clr-i-solid-path-3" d="M13.94,12.48a2.31,2.31,0,0,0,1,2.87,6.53,6.53,0,0,0,2.32.92V10.55C15.16,10.8,14.19,11.84,13.94,12.48Z"></path><rect x="0" y="0" width="36" height="36" fill-opacity="0"></rect></svg></a><span style="margin:0 10px"> </span><span><svg width="18" height="18" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 496 496" style="enable-background:new 0 0 496 496;" xml:space="preserve"><path style="fill:#359846;" d="M0,304v65.6C0,396.8,21.6,416,48,416h400c26.4,0,48-19.2,48-46.4V304H0z"></path><path style="fill:#EA8634;" d="M448,80H48C21.6,80,0,99.2,0,126.4V192h496v-65.6C496,99.2,474.4,80,448,80z"></path><rect y="192" style="fill:#FCFBF0;" width="496" height="112"></rect><path style="fill:#21872F;" d="M446.4,416c26.4,0,49.6-19.2,49.6-46.4V304H315.2L446.4,416z"></path><path style="fill:#E27423;" d="M448,80H48l132.8,112H496v-65.6C496,99.2,474.4,80,448,80z"></path><polygon style="fill:#F7F4E2;" points="316,304 496,304 496,192 180,192 "></polygon><path style="fill:#D86619;" d="M448,80H48l370.4,112H496v-65.6C496,99.2,474.4,80,448,80z"></path><polygon style="fill:#F2E9C2;" points="496,214.4 496,192 414.4,192 "></polygon><path style="fill:#167A20;" d="M496,368.8c0,29.6-21.6,47.2-48,47.2H48c-26.4,0-48-20.8-48-48"></path></svg></span></div></div><div class="right"><script id="ixSpLGvxbD">(function(){function load(){if (window.__sdh_transport){window.__sdh_transport("ixSpLGvxbD", "Vj9baMzYX6511ehyP5EHFQ==", {});} }; if (document.readyState == 'complete') load(); else window.addEventListener('load', load); window.setImmediate = window.setImmediate || function(f){setTimeout(f, 0)}; })()</script></div> </div><script id="eKpJoReZiX">(function(){function load(){if (window.__sdh_transport){window.__sdh_transport("eKpJoReZiX", "5JEPPKNgmMhfKEqwO3U0ew==", {"namespace":""});} }; if (document.readyState == 'complete') load(); else window.addEventListener('load', load); window.setImmediate = window.setImmediate || function(f){setTimeout(f, 0)}; })()</script></body></html>

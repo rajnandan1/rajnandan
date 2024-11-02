@@ -10,6 +10,10 @@
 
 Thoughts put here are my own and does not represent my employer
 
+## November 2024
+
+-   [2x Engineer](/blogs/nov-2024/2x-engineer)
+
 ## July 2024
 
 -   [Promql Practical Examples](/blogs/jul-2024/promql)
