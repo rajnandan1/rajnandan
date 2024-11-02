@@ -17,14 +17,14 @@ import { copyLineLinks } from '/Users/rajnandan1/Code/rajnandan/.codedoc/node_mo
 import { gatherFootnotes } from '/Users/rajnandan1/Code/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/footnote/gather-footnotes.js';gatherFootnotes();
 import { DarkModeSwitch } from '/Users/rajnandan1/Code/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js';
 import { ConfigTransport } from '/Users/rajnandan1/Code/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js';
-import { TabSelector } from '/Users/rajnandan1/Code/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/tabs/selector.js';
 import { Author } from '/Users/rajnandan1/Code/rajnandan/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/author/index.js';
+import { TabSelector } from '/Users/rajnandan1/Code/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/tabs/selector.js';
 
 const components = {
   'Vj9baMzYX6511ehyP5EHFQ==': DarkModeSwitch,
   '5JEPPKNgmMhfKEqwO3U0ew==': ConfigTransport,
-  'd5H08QOzWT19D1BkAxYQGg==': TabSelector,
-  'rNAGJitPZOA8sfqc5HliCw==': Author
+  'rNAGJitPZOA8sfqc5HliCw==': Author,
+  'd5H08QOzWT19D1BkAxYQGg==': TabSelector
 };
 
 const renderer = getRenderer();

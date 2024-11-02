@@ -26,4 +26,4 @@ I have a keen eye for good UX and UI, believing that perfection is achieved when
 
 ## Links
 
-[Blog](/blogs) | [Projects](/projects) | [Colors](/colors) | [Games](/games) | [Contact](/contact)
+[Blog](/blogs) | [Projects](/projects) | [Books](/books) | [Colors](/colors) | [Games](/games) | [Contact](/contact)

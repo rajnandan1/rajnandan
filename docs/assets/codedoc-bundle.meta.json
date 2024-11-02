@@ -93,14 +93,14 @@
       "hash": "5JEPPKNgmMhfKEqwO3U0ew=="
     },
     {
-      "name": "TabSelector",
-      "filename": "/Users/rajnandan1/Code/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/tabs/selector.js",
-      "hash": "d5H08QOzWT19D1BkAxYQGg=="
-    },
-    {
       "name": "Author",
       "filename": "/Users/rajnandan1/Code/rajnandan/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/author/index.js",
       "hash": "rNAGJitPZOA8sfqc5HliCw=="
+    },
+    {
+      "name": "TabSelector",
+      "filename": "/Users/rajnandan1/Code/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/tabs/selector.js",
+      "hash": "d5H08QOzWT19D1BkAxYQGg=="
     }
   ],
   "renderer": {
